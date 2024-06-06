@@ -1,17 +1,17 @@
 class DistTest < Formula
   desc "Repository for cargo-dist action test"
   homepage "https://github.com/agentjhonny/dist-test"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/agentjhonny/dist-test/releases/download/0.1.0/dist-test-aarch64-apple-darwin.tar.xz"
-      sha256 "2f8ab6bcfaccb87e5225afa42c796732cb7b86506d26ee4aff9b86d76694dbfa"
+      url "https://github.com/agentjhonny/dist-test/releases/download/0.1.1/dist-test-aarch64-apple-darwin.tar.xz"
+      sha256 "f95860a6d766ffb5521a7cb27b8e86481dc15220514110428996ee360046c2ef"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/agentjhonny/dist-test/releases/download/0.1.0/dist-test-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d9327605da057e910a9db9635e47aa05bd710f7f4e86c471d30237ed8c6df505"
+      url "https://github.com/agentjhonny/dist-test/releases/download/0.1.1/dist-test-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "cce47915f144225e5583a423bf97eab9e59cb730ea149b72a3208489a92289e7"
     end
   end
 
